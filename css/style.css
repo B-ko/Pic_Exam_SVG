@@ -1,3 +1,6 @@
+/*ANIMATION DE ROTATION**************************************/
+
+
 .animation {
     animation: rotation 3s infinite;
     transform-origin:center;
@@ -8,3 +11,19 @@
   from {-webkit-transform: rotate(0deg);}
   to {-webkit-transform: rotate(360deg);}
 }
+
+
+
+/*ANIMATION DU DASH*****************************************/
+
+
+.path {
+    stroke-dasharray: 100;
+    animation: dash 6s infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 2000;
+    }
+  }
