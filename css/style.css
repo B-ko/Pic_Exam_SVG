@@ -1,3 +1,17 @@
+circle {
+  stroke-opacity:null; 
+  stroke-width:3;
+  stroke:blue;
+  fill:red;
+}
+
+ellipse {
+  stroke-opacity:null; 
+  stroke-width:3; 
+  stroke:blue; 
+  fill:#00ff00;
+}
+
 /*ANIMATION DE ROTATION**************************************/
 
 
