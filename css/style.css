@@ -1,5 +1,5 @@
 .animation {
-    animation: rotation 5s infinite;
+    animation: rotation 3s infinite;
     transform-origin:center;
     animation-timing-function: linear;
   }
