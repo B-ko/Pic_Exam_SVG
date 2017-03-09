@@ -1,6 +1,7 @@
 .animation {
     animation: rotation 5s infinite;
     transform-origin:center;
+    animation-timing-function: linear;
   }
 
 @keyframes rotation {
