@@ -1,0 +1,9 @@
+.animation {
+    animation: rotation 5s infinite;
+    transform-origin:center;
+  }
+
+@keyframes rotation {
+  from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}
+}
